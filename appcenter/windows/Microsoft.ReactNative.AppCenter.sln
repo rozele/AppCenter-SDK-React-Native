@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AppCenter.ReactNa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AppCenter.ReactNative.Crashes", "..\..\appcenter-crashes\windows\Microsoft.AppCenter.ReactNative.Crashes\Microsoft.AppCenter.ReactNative.Crashes.csproj", "{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AppCenter.ReactNative.Push", "..\..\appcenter-push\windows\Microsoft.AppCenter.ReactNative.Push\Microsoft.AppCenter.ReactNative.Push.csproj", "{6035CBD1-06F7-46DD-8E46-9C583D0174E2}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		..\node_modules\react-native-windows\Yoga\csharp\Facebook.Yoga\Facebook.Yoga.Shared.projitems*{91c42d32-291d-4b72-90b4-551663d60b8b}*SharedItemsImports = 13
@@ -225,6 +227,30 @@ Global
 		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Release|x64.Build.0 = Release|x64
 		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Release|x86.ActiveCfg = Release|x86
 		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Release|x86.Build.0 = Release|x86
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Debug|ARM.ActiveCfg = Debug|ARM
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Debug|ARM.Build.0 = Debug|ARM
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Debug|x64.ActiveCfg = Debug|x64
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Debug|x64.Build.0 = Debug|x64
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Debug|x86.ActiveCfg = Debug|x86
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Debug|x86.Build.0 = Debug|x86
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Development|ARM.ActiveCfg = Debug|ARM
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Development|ARM.Build.0 = Debug|ARM
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Development|x64.ActiveCfg = Debug|x64
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Development|x64.Build.0 = Debug|x64
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Development|x86.ActiveCfg = Debug|x86
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Development|x86.Build.0 = Debug|x86
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Release|ARM.ActiveCfg = Release|ARM
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Release|ARM.Build.0 = Release|ARM
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Release|x64.ActiveCfg = Release|x64
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Release|x64.Build.0 = Release|x64
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Release|x86.ActiveCfg = Release|x86
+		{6035CBD1-06F7-46DD-8E46-9C583D0174E2}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
