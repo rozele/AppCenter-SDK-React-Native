@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AppCenter.ReactNa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AppCenter.ReactNative.AppCenter", "Microsoft.AppCenter.ReactNative.AppCenter\Microsoft.AppCenter.ReactNative.AppCenter.csproj", "{85208968-4D5C-4E83-98FB-967893E44E6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AppCenter.ReactNative.Crashes", "..\..\appcenter-crashes\windows\Microsoft.AppCenter.ReactNative.Crashes\Microsoft.AppCenter.ReactNative.Crashes.csproj", "{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		..\node_modules\react-native-windows\Yoga\csharp\Facebook.Yoga\Facebook.Yoga.Shared.projitems*{91c42d32-291d-4b72-90b4-551663d60b8b}*SharedItemsImports = 13
@@ -199,6 +201,30 @@ Global
 		{85208968-4D5C-4E83-98FB-967893E44E6F}.Release|x64.Build.0 = Release|x64
 		{85208968-4D5C-4E83-98FB-967893E44E6F}.Release|x86.ActiveCfg = Release|x86
 		{85208968-4D5C-4E83-98FB-967893E44E6F}.Release|x86.Build.0 = Release|x86
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Debug|ARM.Build.0 = Debug|ARM
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Debug|x64.ActiveCfg = Debug|x64
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Debug|x64.Build.0 = Debug|x64
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Debug|x86.ActiveCfg = Debug|x86
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Debug|x86.Build.0 = Debug|x86
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Development|ARM.ActiveCfg = Debug|ARM
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Development|ARM.Build.0 = Debug|ARM
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Development|x64.ActiveCfg = Debug|x64
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Development|x64.Build.0 = Debug|x64
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Development|x86.ActiveCfg = Debug|x86
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Development|x86.Build.0 = Debug|x86
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Release|ARM.ActiveCfg = Release|ARM
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Release|ARM.Build.0 = Release|ARM
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Release|x64.ActiveCfg = Release|x64
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Release|x64.Build.0 = Release|x64
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Release|x86.ActiveCfg = Release|x86
+		{CDA0B95C-A441-4284-B772-AC67C4C6FC6B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
